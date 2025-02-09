@@ -1,0 +1,40 @@
+{
+  "name": "scenographer",
+  "version": "1.0.0",
+  "description": "Playwright enables reliable end-to-end testing for modern web apps.\nThis package brings in additional features to enable using WebExtensions.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint . --ext .ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/scenographer/scenographer-js.git"
+  },
+  "keywords": [
+    "Playwright",
+    "WebExtension"
+  ],
+  "author": "Scenographer Contributors",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/scenographer/scenographer-js/issues"
+  },
+  "homepage": "https://github.com/scenographer/scenographer-js#readme",
+  "devDependencies": {
+    "@types/crypto-js": "^4.2.0",
+    "@types/node": "^22.13.0",
+    "@types/unzipper": "^0.10.0",
+    "eslint": "^9.20.0",
+    "eslint-plugin-import": "^2.31.0",
+    "typescript": "^5.7.0",
+    "typescript-eslint": "^8.23.0"
+  },
+  "dependencies": {
+    "axios": "^1.7.0",
+    "crypto-js": "^4.2.0",
+    "playwright-core": "^1.50.0",
+    "unzipper": "^0.12.0"
+  }
+}
